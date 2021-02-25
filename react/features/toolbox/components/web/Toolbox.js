@@ -997,8 +997,9 @@ class Toolbox extends Component<Props, State> {
                 toggled = { _screensharing }
                 tooltip = { tooltip } />
         );
-    }
     */
+    }
+    
 
     /**
      * Returns true if the profile button is visible and false otherwise.
