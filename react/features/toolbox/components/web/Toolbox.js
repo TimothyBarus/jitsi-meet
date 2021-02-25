@@ -1143,13 +1143,12 @@ class Toolbox extends Component<Props, State> {
             switch (buttonName) {
             case 'desktop':
                 return this._renderDesktopSharingButton(true);
-            /*
                 case 'raisehand':
                 return (
                     <OverflowMenuItem
                         accessibilityLabel =
                             { t('toolbar.accessibilityLabel.raiseHand') }
-                        icon = { IconRaisedHand }
+                        //icon = { IconRaisedHand }
                         key = 'raisedHand'
                         onClick = { this._onToolbarToggleRaiseHand }
                         text = {
@@ -1159,7 +1158,6 @@ class Toolbox extends Component<Props, State> {
                             )
                         } />
                 );
-            */
                 case 'chat':
                 return (
                     <OverflowMenuItem
