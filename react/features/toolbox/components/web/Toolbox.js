@@ -1137,7 +1137,8 @@ class Toolbox extends Component<Props, State> {
             switch (buttonName) {
             case 'desktop':
                 return this._renderDesktopSharingButton(true);
-            case 'raisehand':
+            /*
+                case 'raisehand':
                 return (
                     <OverflowMenuItem
                         accessibilityLabel =
@@ -1152,7 +1153,8 @@ class Toolbox extends Component<Props, State> {
                             )
                         } />
                 );
-            case 'chat':
+            */
+                case 'chat':
                 return (
                     <OverflowMenuItem
                         accessibilityLabel =
