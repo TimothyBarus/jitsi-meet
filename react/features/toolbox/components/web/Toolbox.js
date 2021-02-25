@@ -963,10 +963,9 @@ class Toolbox extends Component<Props, State> {
         if (!this._isDesktopSharingButtonVisible()) {
             return null;
         }
-
+/*
         if (isInOverflowMenu) {
             return (
-                /*
                 <OverflowMenuItem
                     accessibilityLabel
                         = { t('toolbar.accessibilityLabel.shareYourScreen') }
@@ -980,17 +979,15 @@ class Toolbox extends Component<Props, State> {
                             _screensharing
                                 ? 'stopScreenSharing' : 'startScreenSharing'}`
                         )
-                    } />
-                    */
+                    } />         
             );
-        }
-
+     }
+*/
         const tooltip = t(
             _desktopSharingEnabled
                 ? 'dialog.shareYourScreen' : _desktopSharingDisabledTooltipKey);
-
+/*
         return (
-            /*
             <ToolbarButton
                 accessibilityLabel
                     = { t('toolbar.accessibilityLabel.shareYourScreen') }
@@ -999,9 +996,9 @@ class Toolbox extends Component<Props, State> {
                 onClick = { this._onToolbarToggleScreenshare }
                 toggled = { _screensharing }
                 tooltip = { tooltip } />
-                */
         );
     }
+    */
 
     /**
      * Returns true if the profile button is visible and false otherwise.
