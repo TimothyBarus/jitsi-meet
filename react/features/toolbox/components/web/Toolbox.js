@@ -966,6 +966,7 @@ class Toolbox extends Component<Props, State> {
 
         if (isInOverflowMenu) {
             return (
+                /*
                 <OverflowMenuItem
                     accessibilityLabel
                         = { t('toolbar.accessibilityLabel.shareYourScreen') }
@@ -980,6 +981,7 @@ class Toolbox extends Component<Props, State> {
                                 ? 'stopScreenSharing' : 'startScreenSharing'}`
                         )
                     } />
+                    */
             );
         }
 
@@ -988,6 +990,7 @@ class Toolbox extends Component<Props, State> {
                 ? 'dialog.shareYourScreen' : _desktopSharingDisabledTooltipKey);
 
         return (
+            /*
             <ToolbarButton
                 accessibilityLabel
                     = { t('toolbar.accessibilityLabel.shareYourScreen') }
@@ -996,6 +999,7 @@ class Toolbox extends Component<Props, State> {
                 onClick = { this._onToolbarToggleScreenshare }
                 toggled = { _screensharing }
                 tooltip = { tooltip } />
+                */
         );
     }
 
